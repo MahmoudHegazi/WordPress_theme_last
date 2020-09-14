@@ -1,5 +1,7 @@
 # WordPress_theme_last
 From Scratch, using udemy course
+
+#### walker class work only with nested menu not the main menu 
 ######  absoulte min require to create theme is index.php and style.css << we add the theme name in style.css
 ######  jquery is installed by wordpress we need only eneque it's script 
 ```php

@@ -1,5 +1,6 @@
 # WordPress_theme_last
 From Scratch, using udemy course
+*  absoulte min require to create theme is index.php and style.css << we add the theme name in style.css
 
 
 // if you need to modify tags and data before use (use filter hod)

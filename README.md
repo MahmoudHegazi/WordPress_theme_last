@@ -1,6 +1,17 @@
 # WordPress_theme_last
 From Scratch, using udemy course
 
+
+### Example in posts
+*  in the case1 wordpress will look for file content-excerpt.php if it not found it will do nothing.
+```php
+//case1
+get_template_part( 'partials/post/content-excerpt');
+```
+*  in the case2 it will look for content-excerpt.php if not found it will look for content.php so use the second case.
+```php //case2
+get_template_part( 'partials/post/content', 'excerpt');
+```
 #### walker class work only with nested menu not the main menu 
 ######  absoulte min require to create theme is index.php and style.css << we add the theme name in style.css
 ######  jquery is installed by wordpress we need only eneque it's script 

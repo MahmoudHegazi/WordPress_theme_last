@@ -1,6 +1,7 @@
 # WordPress_theme_last
 From Scratch, using udemy course
 
+https://wphierarchy.com/
 
 ### Example in posts
 *  in the case1 wordpress will look for file content-excerpt.php if it not found it will do nothing.

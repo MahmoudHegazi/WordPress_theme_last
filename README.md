@@ -1,6 +1,8 @@
 # WordPress_theme_last
 From Scratch, using udemy course
 
+http://35.180.232.204/
+
 https://wphierarchy.com/
 
 ### Example in posts

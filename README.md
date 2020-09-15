@@ -8,7 +8,7 @@ From Scratch, using udemy course
 //case1
 get_template_part( 'partials/post/content-excerpt');
 ```
-*  in the case2 it will look for content-excerpt.php if not found it will look for content.php so use the second case.
+*  in the case2 it will look for content-excerpt.php if not found it will look for content.php so the second case is good if u have multipale template.
 ```php //case2
 get_template_part( 'partials/post/content', 'excerpt');
 ```

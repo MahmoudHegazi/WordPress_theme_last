@@ -56,7 +56,8 @@ function ju_customize_preview_init() {
 
 
 ```php 
-// load the post thumbnail inside the loop
-<?php the_post_thumbnail(); ?>
+// full is the size load the post thumbnail inside the loop
+// second argument is the class added to the image 
+<?php the_post_thumbnail( 'full', ['class' => 'image_fade'] ); ?>
 
 ```

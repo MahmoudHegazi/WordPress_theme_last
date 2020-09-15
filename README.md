@@ -61,3 +61,9 @@ function ju_customize_preview_init() {
 <?php the_post_thumbnail( 'full', ['class' => 'image_fade'] ); ?>
 
 ```
+
+* ths function can't work alone in the loop becuase it need id so added the get_the_author_meta to get the author id and pass it to the function.
+```php 
+<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>
+```
+

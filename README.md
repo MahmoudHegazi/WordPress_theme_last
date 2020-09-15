@@ -53,3 +53,10 @@ function ju_customize_preview_init() {
 
 ```
 5.  we have now ever thing ready, sometimes cash may make things not work clear cashe or try another browser.
+
+
+```php 
+// load the post thumbnail inside the loop
+<?php the_post_thumbnail(); ?>
+
+```
